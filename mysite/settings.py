@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-*st@56&!&7pwc6=@is3bu8k(fq9jmgh%xv(*aagw+#vn)=f43^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'curious-cranachan-98f0e9.netlify.app']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
@@ -118,9 +121,12 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
+
 STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'  # ✅ Add this
-STATICFILES_DIRS = [BASE_DIR / 'static']
+
+STATICFILES_DIRS=[
+    "/blog/static/blog/"
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
