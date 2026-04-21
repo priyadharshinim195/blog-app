@@ -28,6 +28,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 
+# At the bottom of settings.py
+
+PORT = os.environ.get('PORT', '8080')
+
 # Application definition
 
 INSTALLED_APPS = [
