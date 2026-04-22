@@ -2,5 +2,5 @@ services:
   - type: web
     name: blog-app
     env: python
-    buildCommand: "./build.sh"
-    startCommand: "gunicorn mysite.wsgi:application"
+    buildCommand: pip install -r requirements.txt && python manage.py migrate && python manage.py loaddata blogdata.json
+    startCommand: gunicorn mysite.wsgi:application
