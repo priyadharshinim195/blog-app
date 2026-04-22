@@ -1,3 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #cccccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header and Navigation */
+.navbar-brand h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer padding */
+body {
+    padding-bottom: 120px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 576px) {
+    .navbar-brand h3 {
+        font-size: 1.2rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    h5.card-title {
+        font-size: 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem 0.75rem;
+    }
+    
+    .input-group {
+        width: 100%;
+    }
+    
+    .btn-sm {
+        padding: 0.35rem 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+    body {
+        padding-bottom: 140px;
+    }
+    
+    .sticky-lg-top {
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .row {
+        margin-right: -0.5rem;
+        margin-left: -0.5rem;
+    }
+    
+    .col-12,
+    .col-sm-6,
+    .col-md-4 {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .sticky-lg-top {
+        position: sticky;
+        top: 80px;
+    }
+}
+
+/* Responsive text */
+@media (max-width: 480px) {
+    .text-break {
+        word-break: break-word;
+    }
+    
+    small {
+        font-size: 0.75rem;
+    }
 }
