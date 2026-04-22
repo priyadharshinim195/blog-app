@@ -80,10 +80,16 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
 
+import os
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'blog_db_khno',
+        'USER': 'blog_db_khno_user',
+        'PASSWORD': '3BMZlzRykpaUDGXLSvnVwt01ZTVoc4AQ',
+        'HOST': 'dpg-d7k6cusp3tds73bc1ku0-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
 
