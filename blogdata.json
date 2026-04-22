@@ -7,6 +7,34 @@
   }
 },
 {
+  "model": "blog.category",
+  "pk": 2,
+  "fields": {
+    "name": "Technology"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 3,
+  "fields": {
+    "name": "Art"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 4,
+  "fields": {
+    "name": "Science"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 5,
+  "fields": {
+    "name": "Food"
+  }
+},
+{
   "model": "blog.post",
   "pk": 1,
   "fields": {
@@ -19,10 +47,232 @@
   }
 },
 {
-  "model": "blog.aboutus",
-  "pk": 1,
+  "model": "blog.post",
+  "pk": 2,
   "fields": {
-    "content": "this is sample"
+    "title": "The Power of Positive Thinking",
+    "content": "Positive thinking is not ignoring your problems � it�s facing them with hope and strength. When you train your mind to see possibilities instead of obstacles, your attitude transforms your outcomes.A simple shift in mindset can change how you react to challenges. Start each morning with gratitude and affirmations, and you�ll begin to notice more good things happening around you.",
+    "img_url": "https://picsum.photos/id/2/800/400",
+    "created_at": "2025-10-21T04:58:28.760Z",
+    "slug": "the-power-of-positive-thinking",
+    "category": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "10 Tips to Improve Your Coding Skills",
+    "content": "Becoming a better coder isn�t about memorizing syntax � it�s about solving problems. Practice daily, break big tasks into smaller parts, and read other people�s code.Join coding communities, ask questions, and never stop learning new concepts. The more you build, the better you become.",
+    "img_url": "https://picsum.photos/id/3/800/400",
+    "created_at": "2025-10-21T04:58:28.766Z",
+    "slug": "10-tips-to-improve-your-coding-skills",
+    "category": 5
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Secrets of a Productive Morning Routine",
+    "content": "A productive morning doesn�t mean rushing through your to-do list. It�s about setting your mind and energy in the right direction.Wake up early, drink water, and spend a few minutes planning your day. When you start slow and intentional, the rest of your day flows smoothly.",
+    "img_url": "https://picsum.photos/id/4/800/400",
+    "created_at": "2025-10-21T04:58:28.766Z",
+    "slug": "secrets-of-a-productive-morning-routine",
+    "category": 2
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "How to Build Confidence and Self-Esteem",
+    "content": "Confidence grows every time you keep a promise to yourself. When you finish tasks you said you would, your self-esteem naturally rises.Surround yourself with people who encourage you and avoid comparing your progress with others. Believe in your journey � confidence is built step by step.",
+    "img_url": "https://picsum.photos/id/5/800/400",
+    "created_at": "2025-10-21T04:58:28.778Z",
+    "slug": "how-to-build-confidence-and-self-esteem",
+    "category": 4
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "The Future of Artificial Intelligence",
+    "content": "Artificial Intelligence is changing the way we live, work, and think. It helps automate daily tasks, improve decision-making, and create smarter systems.But with great power comes great responsibility � AI should be developed with fairness, safety, and ethics in mind to truly benefit humanity.",
+    "img_url": "https://picsum.photos/id/6/800/400",
+    "created_at": "2025-10-21T04:58:28.783Z",
+    "slug": "the-future-of-artificial-intelligence",
+    "category": 4
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Simple Recipes for Busy People",
+    "content": "Cooking doesn�t need to be complicated. A few fresh ingredients and simple recipes can make your meals healthy and quick.Try one-pan dishes, salads, and smoothies. Preparing your food gives you control over what you eat � a small step toward a better lifestyle.",
+    "img_url": "https://picsum.photos/id/7/800/400",
+    "created_at": "2025-10-21T04:58:28.787Z",
+    "slug": "simple-recipes-for-busy-people",
+    "category": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "How to Start a Career in Tech",
+    "content": "Starting a career in tech might look hard, but everyone begins somewhere. Learn one skill at a time � start with HTML, Python, or JavaScript.Build small projects and showcase them in your portfolio. What matters most is curiosity and persistence, not perfection.",
+    "img_url": "https://picsum.photos/id/8/800/400",
+    "created_at": "2025-10-21T04:58:28.791Z",
+    "slug": "how-to-start-a-career-in-tech",
+    "category": 2
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Benefits of Daily Meditation",
+    "content": "Meditation brings silence to the chaos inside us. Even 10 minutes of deep breathing can help you focus better and feel lighter.With regular practice, meditation reduces stress, improves mood, and teaches emotional balance. It�s the most peaceful way to recharge your mind.",
+    "img_url": "https://picsum.photos/id/9/800/400",
+    "created_at": "2025-10-21T04:58:28.791Z",
+    "slug": "benefits-of-daily-meditation",
+    "category": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Travel Guide: Hidden Gems of India",
+    "content": "India is filled with beautiful destinations that most people overlook � hidden waterfalls, peaceful beaches, and quiet hill stations.Exploring lesser-known places helps you experience real culture and connect with locals. Every trip teaches you something new about life and simplicity.",
+    "img_url": "https://picsum.photos/id/10/800/400",
+    "created_at": "2025-10-21T04:58:28.801Z",
+    "slug": "travel-guide-hidden-gems-of-india",
+    "category": 4
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "Mastering Time Management",
+    "content": "Time management is the difference between being busy and being effective. Learn to prioritize � not everything deserves your time.Break your goals into smaller parts, use reminders, and rest when needed. Managing your time means managing your energy wisely.",
+    "img_url": "https://picsum.photos/id/11/800/400",
+    "created_at": "2025-10-21T04:58:28.804Z",
+    "slug": "mastering-time-management",
+    "category": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "title": "Why Reading Books Changes Your Life",
+    "content": "Reading books is like having a conversation with the greatest minds in history. Every page teaches something new � a story, a perspective, or a truth.When you make reading a habit, you develop patience, focus, and empathy. A good book can truly change your life.",
+    "img_url": "https://picsum.photos/id/12/800/400",
+    "created_at": "2025-10-21T04:58:28.804Z",
+    "slug": "why-reading-books-changes-your-life",
+    "category": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 13,
+  "fields": {
+    "title": "Best Free Tools for Developers",
+    "content": "There are amazing free tools available for developers today � code editors, design kits, and testing platforms.Use tools like VS Code, GitHub, and Figma to make your projects faster and cleaner. The right tools save time and boost creativity.",
+    "img_url": "https://picsum.photos/id/13/800/400",
+    "created_at": "2025-10-21T04:58:28.804Z",
+    "slug": "best-free-tools-for-developers",
+    "category": 4
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 14,
+  "fields": {
+    "title": "How to Stay Motivated During Hard Times",
+    "content": "Motivation is not constant � it comes and goes. That�s why discipline matters more.When you feel tired, take small steps instead of quitting. Every little effort adds up, and consistency always beats intensity.",
+    "img_url": "https://picsum.photos/id/14/800/400",
+    "created_at": "2025-10-21T04:58:28.816Z",
+    "slug": "how-to-stay-motivated-during-hard-times",
+    "category": 5
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 15,
+  "fields": {
+    "title": "The Rise of Sustainable Fashion",
+    "content": "Sustainable fashion is all about protecting our planet through smart choices. Buying less but better, recycling clothes, and supporting ethical brands make a big difference.It�s not just a trend � it�s a movement toward a cleaner, fairer world.",
+    "img_url": "https://picsum.photos/id/15/800/400",
+    "created_at": "2025-10-21T04:58:28.816Z",
+    "slug": "the-rise-of-sustainable-fashion",
+    "category": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 16,
+  "fields": {
+    "title": "How to Create a Personal Portfolio Website",
+    "content": "A personal portfolio website is your online identity. It shows your skills, creativity, and projects to employers or clients.Keep the design simple, highlight your best work, and update it regularly. Your website speaks before you do � make it count.",
+    "img_url": "https://picsum.photos/id/16/800/400",
+    "created_at": "2025-10-21T04:58:28.816Z",
+    "slug": "how-to-create-a-personal-portfolio-website",
+    "category": 3
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 17,
+  "fields": {
+    "title": "Photography Tips for Beginners",
+    "content": "Photography is about emotion, not equipment. Light, timing, and composition create magic more than an expensive camera.Try capturing daily life from new angles � moments, smiles, and shadows. The world looks different when you learn to see through a lens.",
+    "img_url": "https://picsum.photos/id/17/800/400",
+    "created_at": "2025-10-21T04:58:28.816Z",
+    "slug": "photography-tips-for-beginners",
+    "category": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 18,
+  "fields": {
+    "title": "Understanding Mental Health Awareness",
+    "content": "Mental health matters more than people realize. It affects how we think, act, and relate to others.Talking about emotions, taking breaks, and seeking help when needed can heal more than silence ever could. Be kind � everyone is fighting a battle you can�t see.",
+    "img_url": "https://picsum.photos/id/18/800/400",
+    "created_at": "2025-10-21T04:58:28.832Z",
+    "slug": "understanding-mental-health-awareness",
+    "category": 5
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 19,
+  "fields": {
+    "title": "Learn Python in 30 Days",
+    "content": "Python is one of the easiest languages to learn, but it�s also extremely powerful. Start with the basics � loops, functions, and data types.Once you�re comfortable, try making small apps or games. The key is to practice daily and enjoy the process.",
+    "img_url": "https://picsum.photos/id/19/800/400",
+    "created_at": "2025-10-21T04:58:28.832Z",
+    "slug": "learn-python-in-30-days",
+    "category": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 20,
+  "fields": {
+    "title": "Exploring Space: The Next Frontier",
+    "content": "Space exploration reminds us how tiny yet powerful humanity can be. Every new discovery about planets or galaxies expands our curiosity.It inspires scientists, artists, and dreamers to think beyond what�s visible � a beautiful reminder that our journey has just begun.",
+    "img_url": "https://picsum.photos/id/20/800/400",
+    "created_at": "2025-10-21T04:58:28.832Z",
+    "slug": "exploring-space-the-next-frontier",
+    "category": 2
   }
 }
+
 ]
